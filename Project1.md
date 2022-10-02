@@ -5,10 +5,10 @@
 
 `sudo apt install apache2`
 
-`systemctl status apache2`
+`sudo systemctl status apache2`
 
 
-![Apache](Apache-installation.jpg)
+![Apache](./Image/Apache-installation.jpg)
 
 
 ## INSTALLATION OF MYSQL
@@ -22,7 +22,7 @@
 
 `sudo mysql -p`
 
-![MySQL](Mysql-installation.jpg)
+![MySQL](./image/Mysql-installation.jpg)
 
 
 ## INSTALLATION OF PHP
@@ -30,7 +30,7 @@
 
 `php -v`
 
-![PHP](PHP-Installation.jpg)
+![PHP](./Image/PHP-Installation.jpg)
 
 
 ## CREATING A VIRTUAL HOST FOR YOUR WEBSITE USING APACHE
@@ -65,7 +65,7 @@
 
 `sudo echo 'Hello LAMP from hostname' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4) > /var/www/projectlamp/index.html`
 
-![VIRTUAL HOST](VH.jpg)
+![VIRTUAL HOST](./Image/VH.jpg)
 
 ## ENABLE PHP ON THE WEBSITE
 `sudo vim /etc/apache2/mods-enabled/dir.conf`
